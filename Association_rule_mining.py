@@ -1,5 +1,4 @@
-# === BULLETPROOF FRAUD PATTERN DISCOVERY PIPELINE ===
-# This version is GUARANTEED to work - completely debugged
+# ===FRAUD PATTERN DISCOVERY PIPELINE ===
 
 import warnings
 
@@ -596,7 +595,7 @@ try:
     print("=" * 60)
 
 except Exception as e:
-    print(f"❌ Export error: {e}")
+    print(f" Export error: {e}")
     import traceback
 
     traceback.print_exc()
