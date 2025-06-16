@@ -139,7 +139,7 @@ Enhanced features created:
 ### Association_rule_mining.py
 ```
 ============================================================
-BULLETPROOF FRAUD PATTERN DISCOVERY PIPELINE
+FRAUD PATTERN DISCOVERY PIPELINE
 ============================================================
 Spark Session initialized: 4.0.0
 
