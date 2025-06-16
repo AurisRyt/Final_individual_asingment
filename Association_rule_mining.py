@@ -289,7 +289,7 @@ for i, pattern in enumerate(top_15_patterns[:10]):
     print(
         f"{i + 1:<4} {pattern['pattern_name'][:58]:<60} {pattern['confidence']:.3f}      {pattern['lift']:.1f}    {pattern['score']:.6f}")
 
-# === PART 3: BULLETPROOF PATTERN VALIDATION ===
+# === PART 3: PATTERN VALIDATION ===
 print("\n" + "=" * 50)
 print("PART 3: PATTERN VALIDATION ON TEST DATA")
 print("=" * 50)
@@ -618,7 +618,7 @@ if all_patterns:
     print(f"- Lift: {best_pattern['lift']:.1f}x baseline")
 
 print(f"\n{'=' * 60}")
-print("CSV FILES READY FOR YOUR PRESENTATION:")
+print("CSV FILES READY FOR PRESENTATION:")
 print(f"{'=' * 60}")
 if csv_filename_all:
     print(f"1. {csv_filename_all}")
