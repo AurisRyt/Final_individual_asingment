@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
-# === SIMPLE BULLETPROOF FRAUD PATTERN VISUALIZATION ===
-# This version is guaranteed to work with minimal dependencies
+
+# === FRAUD PATTERN VISUALIZATION ===
 
 import pandas as pd
 import matplotlib.pyplot as plt
